@@ -20,7 +20,7 @@ public interface DontTelegrabConfig extends Config
 			// Sailing mammals
 			"Dolphin, Mogre, Narwhal, Orca, " +
 			// Sailing krakens
-			"Pygmy kraken, Spined kraken, Armoured kraken, Vampyre kraken, " +
+			"Pygmy kraken, Spined kraken, Armoured kraken, Vampyre kraken, Veiled kraken, " +
 			// Sailing sharks
 			"Bull shark, Hammerhead shark, Tiger shark, Great white shark, " +
 			// Sailing rays
