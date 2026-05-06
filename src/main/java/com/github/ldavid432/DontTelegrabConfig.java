@@ -24,6 +24,8 @@ public interface DontTelegrabConfig extends Config
 			// Sailing sharks
 			"Bull shark, Hammerhead shark, Tiger shark, Great white shark, " +
 			// Sailing rays
-			"Eagle Ray, Butterfly Ray, Stingray, Manta ray";
+			"Eagle Ray, Butterfly Ray, Stingray, Manta ray" +
+			// Sailing crates
+			"Lost wooden crate, Lost oak crate, Lost teak crate, Lost mahogany crate, Lost camphor crate, Lost ironwood crate";
 	}
 }
