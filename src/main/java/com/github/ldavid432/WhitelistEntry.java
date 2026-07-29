@@ -3,6 +3,7 @@ package com.github.ldavid432;
 import java.util.List;
 import java.util.function.Function;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import net.runelite.api.gameval.NpcID;
 
 @AllArgsConstructor
@@ -42,10 +43,16 @@ public enum WhitelistEntry
 		DontTelegrabConfig::isWhitelistKingsRansomGuard,
 		List.of(NpcID.KR_KEEP_GUARD_HAIR)
 	),
+	HUNTER_GOATS(
+		DontTelegrabConfig::isWhitelistHunterGoats,
+		// TODO: Gamevals
+		List.of(16298)
+	),
 	;
 
-	final Function<DontTelegrabConfig, Boolean> isEnabled;
-	final List<Integer> ids;
+	private final Function<DontTelegrabConfig, Boolean> isEnabled;
+	@Getter
+	private final List<Integer> ids;
 
 	public boolean isEnabled(DontTelegrabConfig config)
 	{

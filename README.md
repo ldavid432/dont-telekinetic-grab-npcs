@@ -11,5 +11,6 @@ There are several toggles for pre-made whitelist NPCs:
 - Sailing creature corpses
 - Sailing lost crates
 - Guard from King's Ransom
+- Hunter Goats on Wyrmscraig
 
-There is also a custom input which takes the names of any additional NPCs you'd like to whitelist
+There is also a custom input which takes the **names** of any additional NPCs you'd like to whitelist

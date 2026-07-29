@@ -91,4 +91,16 @@ public interface DontTelegrabConfig extends Config
 	{
 		return true;
 	}
+
+	@ConfigItem(
+		keyName = "whitelistHunterGoats",
+		name = "Hunter Goats",
+		description = "Whitelist the Hunter Goats on Wyrmscraig",
+		section = whitelistSection,
+		position = 5
+	)
+	default boolean isWhitelistHunterGoats()
+	{
+		return true;
+	}
 }

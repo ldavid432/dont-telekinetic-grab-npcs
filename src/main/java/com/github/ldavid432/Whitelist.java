@@ -14,7 +14,7 @@ public class Whitelist
 	private final List<String> whitelistedNames = new ArrayList<>();
 
 	@Inject
-	DontTelegrabConfig config;
+	private DontTelegrabConfig config;
 
 	public void refreshWhiteList()
 	{
@@ -26,7 +26,7 @@ public class Whitelist
 		{
 			if (entry.isEnabled(config))
 			{
-				whitelistedIds.addAll(entry.ids);
+				whitelistedIds.addAll(entry.getIds());
 			}
 		}
 	}

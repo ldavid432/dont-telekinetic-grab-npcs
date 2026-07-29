@@ -1,7 +1,7 @@
 package com.github.ldavid432;
 
-import static com.github.ldavid432.DontTelegrabConfig.VERSION_KEY;
 import static com.github.ldavid432.DontTelegrabConfig.CUSTOM_WHITELIST_KEY;
+import static com.github.ldavid432.DontTelegrabConfig.VERSION_KEY;
 import static com.github.ldavid432.Whitelist.joinCustomWhitelist;
 import static com.github.ldavid432.Whitelist.splitCustomWhitelist;
 import com.google.inject.Provides;
