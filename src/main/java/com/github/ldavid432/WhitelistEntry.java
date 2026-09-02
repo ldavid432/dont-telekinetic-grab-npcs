@@ -45,8 +45,7 @@ public enum WhitelistEntry
 	),
 	HUNTER_GOATS(
 		DontTelegrabConfig::isWhitelistHunterGoats,
-		// TODO: Gamevals
-		List.of(16298)
+		List.of(NpcID.GOAT_PIT_GOAT)
 	),
 	;
 
